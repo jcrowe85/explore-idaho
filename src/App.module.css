@@ -1,0 +1,237 @@
+.app {
+    background-color: #F6F6F6;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.logo {
+    flex: 2;
+}
+
+.logo img {
+    width: 125px;
+}
+
+.phone-number {
+    text-align: right;
+}
+
+.phone-number a, .phone-number:visited a{
+    text-align: right;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(0,0,0,90%);
+}
+
+.section1 {
+
+}
+
+.section1, .section3 {
+    color: white;
+}
+
+.section1 h1 {
+    font-size: 15vw;
+    margin: 1rem 0;
+    margin-top: 0;
+    
+}
+
+.section1 p {
+    margin: 0;
+}
+
+.section1 button {
+    margin-top: 1.5rem;
+}
+
+.hero-background, .videos-background {
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+    margin-left: -20px;
+    margin-right: -20px;
+    box-shadow:  0px 5px 5px rgb(0 0 0 / 30%);
+    background-size: cover;
+}
+
+.content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.content p {
+    margin: 0.5rem 0;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    background-color: #3464b2;
+    color: white;
+    /* box-shadow: 3px 3px 5px rgba(0,0,0,0.5); */
+}
+
+.section2 p {
+    line-height: 1.5rem;
+    margin: 0;
+    color: rgba(0,0,0,0.5);
+    font-size: .8rem;
+}
+
+.listing {
+    /* box-shadow: 0px 0px 5px rgba(0,0,0, 0.3);
+    padding: 0.75rem;
+    width: 305px; */
+    border-radius: 3px;
+    margin-top: 0.5rem;
+}
+
+.listing__image img{
+
+}
+
+.listing__title, .listing__image {
+    margin-bottom: 1.5rem;
+}
+
+.listing__title h3 {
+    margin: 0;
+}
+
+.listing__amenities {
+    margin-bottom: 2rem;
+}
+
+.listing__amenities {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.listing__amenity {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0,0,0,0.04);
+    color: rgba(0,0,0,58%);
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.6rem;
+    width: 100px;
+    gap: 0.2rem;
+}
+
+.listing__amenity span {
+    font-size: 0.8rem;
+}
+
+.listing__price {
+    font-weight: bold; 
+    font-size: 1.2rem;
+    flex: 2;
+}
+
+.listing__price span {
+    color: rgba(0,0,0,0.5); 
+    font-size: .8rem; 
+    font-weight: normal;
+}
+
+.listing__availability {
+    background-color: #779acd;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+.listing__price__availability {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.carousel-buttons > div {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+
+.carousel-buttons div:nth-child(1) {
+    border: 3px solid #1F65B8;
+}
+
+.section3 p, .section2 p {
+    margin-bottom: 2rem;
+}
+
+.section3 img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.section3 button {
+    text-align: center;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+    margin: 0.5rem;
+}
+
+.questions {
+    margin-bottom: 3rem;
+}
+
+.question {
+    margin: 2.5rem 0;
+}
+
+.addtl-questions {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.addtl-questions p {
+    margin: 0;
+    padding: 0;
+    font-size: .8rem;
+}
+
+.addtl-questions h4 {
+    margin: 0;
+    padding: 0;
+}
